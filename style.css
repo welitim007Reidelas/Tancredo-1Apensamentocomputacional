@@ -1,10 +1,31 @@
 body {
 text-align: center;
-background-color: rgb(161, 66, 66)
+background-color: rgb(31, 201, 217);
+margin: 0 auto;
 }
 .capa{
     width: 100%;
 }
-.beneficios{
+.beneficio{
     text-align: left;
 }
+.beneficio h2{
+    text-align: center;
+    font-size: 30px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.imagem-beneficios{
+    width: 40%;
+border-radius: 20px;
+box-shadow: 2px 2px 4px #161313;
+
+    }
